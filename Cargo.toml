@@ -1,0 +1,22 @@
+[package]
+name = "palworld-tools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.vmmap]
+git = "https://github.com/kekeimiku/PointerSearcher-X"
+
+[dependencies.fltk]
+version = "^1.4"
+
+[dependencies.sysinfo]
+version = "0.30.5"
+default-features = false
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+debug = false
