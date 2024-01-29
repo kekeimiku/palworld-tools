@@ -4,10 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies.vmmap]
-git = "https://github.com/kekeimiku/PointerSearcher-X"
+version = "0.6.3"
+default-features = false
 
 [dependencies.fltk]
 version = "^1.4"
+features = ["fltk-bundled"]
 
 [dependencies.sysinfo]
 version = "0.30.5"

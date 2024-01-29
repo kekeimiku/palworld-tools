@@ -151,8 +151,9 @@ checksum = "17f77d76d837a7830fe1d4f12b7b4ba4192c1888001c7164257e4bc6d21d96b4"
 
 [[package]]
 name = "vmmap"
-version = "0.6.2"
-source = "git+https://github.com/kekeimiku/PointerSearcher-X#b8cdab277f9494f19f69db7157ae2ecc58de0276"
+version = "0.6.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "88c58b01f28f02f02917d0974b1adaf4ee3ed6ec0e9a16443d4107da0e5a9b47"
 dependencies = [
  "machx",
  "memmap2",
